@@ -116,5 +116,6 @@ scancel {<starting_job_id>..<ending_job_id>}
 ## More on Compute Canada
 
 * As mentioned earlier, CC uses slurm. Contrary to CC, you can find a lot of community resources for slurm. So if you want to search for anything, try using the keyword `slurm` with your query on Google instead of `compute canada`.
+* [Compute Canada Wiki](https://docs.computecanada.ca/wiki/Getting_started)
 * Join `#compute-canada` channel on Amii Slack for discussions or any sort of help.
 * Follow [Compute Canada Status](https://twitter.com/CanadaCompute) on Twitter and turn on notifications if you use it regularly. It will keep you updated with the latest status of CC.
