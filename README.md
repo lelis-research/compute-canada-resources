@@ -107,7 +107,7 @@ You can also see the ids by using `sq` command.
 
 ### Cancelling multiple jobs
 
-You can use following command to cancel range jobs in a range.
+You can use following command to cancel jobs in a range.
 
 ```sh
 scancel {<starting_job_id>..<ending_job_id>}
