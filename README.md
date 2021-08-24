@@ -16,7 +16,7 @@ Replace `<username>` with your username and `<node_name>` with the node name you
 
 By default you are at your `$HOME` dir when you ssh into CC. CC is based on Slurm, which is a job schedular that allows you to submit jobs. In your home directoy, usually your scripts are saved. It's a good practise to always use a version control like `git` to keep track of your scripts.
 
-Inside your home dir, you should clone any repository containing the script that you want to run. For instance, you can clone this repo, it contains a script `sampels/script.sh` that you can run. To run the script, do not forget to change the line `#SBATCH --account=<def-someuser>` in the script. Replace `<def-someuser>` with your group name. You can find the group name in your CC account.
+Inside your home dir, you should clone any repository containing the script that you want to run. For instance, you can clone this repo, it contains a script `samples/script.sh` that you can run. To run the script, do not forget to change the line `#SBATCH --account=<def-someuser>` in the script. Replace `<def-someuser>` with your group name. You can find the group name in your CC account.
 
 After cloning the repo, in order to run the script, you need to `cd` into the directory where the script is located. Then you can use the following command to run the script.
 
