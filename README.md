@@ -115,6 +115,7 @@ scancel {<starting_job_id>..<ending_job_id>}
 
 ## More on Compute Canada
 
+* Resources from [RLAI Lab](https://docs.google.com/document/d/1wyf4KtyFOPUnvBbUe1_u1JcM00w0WWDtK8djICMrFuc/)
 * As mentioned earlier, CC uses slurm. Contrary to CC, you can find a lot of community resources for slurm. So if you want to search for anything, try using the keyword `slurm` with your query on Google instead of `compute canada`.
 * [Compute Canada Wiki](https://docs.computecanada.ca/wiki/Getting_started)
 * Join `#compute-canada` channel on Amii Slack for discussions or any sort of help.
