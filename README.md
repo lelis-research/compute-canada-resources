@@ -4,7 +4,7 @@ This guide is intended to help Alberta Machine Intelligence Institute (AMII) ass
 
 ## Getting Started
 
-Once you have created account on CC, generate an SSH key pair and add your public key to your CC account. Once you are done you can use the following command in your terminal to ssh to CC.
+Once you have created account on CC, generate an SSH key pair and add your public key to your CC account (you can see how to do it by reading the first part of this [tutorial](https://hackersandslackers.com/automate-ssh-scp-python-paramiko/)). Once you are done you can use the following command in your terminal to ssh to CC.
 
 ```sh
 ssh -Y <username>@<node_name>.computecanada.ca
