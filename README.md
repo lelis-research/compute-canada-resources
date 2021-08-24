@@ -113,6 +113,14 @@ You can use following command to cancel jobs in a range.
 scancel {<starting_job_id>..<ending_job_id>}
 ```
 
+### Cancelling all jobs from your user
+
+You can use following command to cancel all jobs send by your user.
+
+```sh
+scancel -u <username>
+```
+
 ## More on Compute Canada
 
 * Resources from [RLAI Lab](https://docs.google.com/document/d/1wyf4KtyFOPUnvBbUe1_u1JcM00w0WWDtK8djICMrFuc/)
