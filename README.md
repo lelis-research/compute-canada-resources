@@ -21,7 +21,7 @@ Inside your home dir, you should clone any repository containing the script that
 After cloning the repo, in order to run the script, you need to `cd` into the directory where the script is located. Then you can use the following command to run the script.
 
 ```sh
-salloc --account=<def-someuser> script.sh
+salloc script.sh
 ```
 
 That's it! You have submitted your first job. You will see a `HELLO WORLD` message in your terminal. You can either use `salloc` or `sbatch` to submit the jobs.
