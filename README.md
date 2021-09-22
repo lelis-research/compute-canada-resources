@@ -127,6 +127,13 @@ You can use following command to cancel all PENDING jobs send by your user.
 ```sh
 scancel -t PENDING -u <username>
 ```
+## Analysing past jobs
+
+You can use following command to see status information about your past jobs. This information includes: CPU usage, task and node information, RSS and VM. You can use falg `--format` and specify the list of variables you want to see in the output, seperated by comma. More information about the variables: [Formatting output](https://curc.readthedocs.io/en/latest/running-jobs/slurm-commands.html#formatting-sacct-output)
+
+```sh
+sacct -j <job_id>
+```
 
 ## More on Compute Canada
 
