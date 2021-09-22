@@ -120,6 +120,12 @@ You can use following command to cancel all jobs send by your user.
 ```sh
 scancel -u <username>
 ```
+### Cancelling all PENDING jobs from your user
+
+You can use following command to cancel all PENDING jobs send by your user.
+
+```sh
+scancel -t PENDING -u <username>
 
 ## More on Compute Canada
 
