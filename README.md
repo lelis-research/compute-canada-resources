@@ -142,3 +142,4 @@ sacct -j <job_id>
 * [Compute Canada Wiki](https://docs.computecanada.ca/wiki/Getting_started)
 * Join `#compute-canada` channel on Amii Slack for discussions or any sort of help.
 * Follow [Compute Canada Status](https://twitter.com/CanadaCompute) on Twitter and turn on notifications if you use it regularly. It will keep you updated with the latest status of CC.
+* Another quickstart, in a similar vein to this but more comprehensive: https://prashp.gitlab.io/post/compute-canada-tut/
