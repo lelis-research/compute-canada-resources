@@ -141,6 +141,8 @@ sacct -j <job_id>
 sacct -n -X -j <job_id> -o state%20 | sort | uniq -c
 ```
 
+[source](https://stackoverflow.com/questions/70299897/how-to-get-count-of-failed-and-completed-jobs-in-an-array-job-of-slurm/70301179#70301179)
+
 ## More on Compute Canada
 
 * Resources from [RLAI Lab](https://docs.google.com/document/d/1wyf4KtyFOPUnvBbUe1_u1JcM00w0WWDtK8djICMrFuc/)
