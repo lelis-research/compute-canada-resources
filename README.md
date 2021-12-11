@@ -135,6 +135,12 @@ You can use following command to see status information about your past jobs. Th
 sacct -j <job_id>
 ```
 
+### Group jobs by state in an array 
+
+```sh
+sacct -n -X -j <job_id> -o state%20 | sort | uniq -c
+```
+
 ## More on Compute Canada
 
 * Resources from [RLAI Lab](https://docs.google.com/document/d/1wyf4KtyFOPUnvBbUe1_u1JcM00w0WWDtK8djICMrFuc/)
